@@ -1,0 +1,89 @@
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+#home {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(213, 99, 88, 0.5),
+      rgba(213, 99, 88, 0.8)
+    ),
+    url("/imgs/istockphoto-501387734-612x612.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+#home .demo {
+  position: absolute;
+  left: 210px;
+}
+#home .links {
+  position: fixed;
+  left: 0px;
+  background-color: black;
+}
+#home .links .fa-xmark {
+  cursor: pointer;
+}
+#home .demo p {
+  cursor: pointer;
+}
+#singer {
+  margin-top: 30px;
+}
+#singer h3 {
+  background-color: rgb(230, 130, 133);
+  padding: 10px;
+  cursor: pointer;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+}
+#singer p {
+  background-color: rgb(204, 204, 204);
+  display: none;
+  margin: auto;
+}
+#Time {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(213, 99, 88, 0.5),
+      rgba(213, 99, 88, 0.8)
+    ),
+    url("/imgs/istockphoto-497317346-612x612.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: contain;
+}
+#joinUs .container .row .Icons {
+  cursor: pointer;
+  font-size: 20px;
+}
+#joinUs .container .row .Icons .fa-facebook-f:hover {
+  color: red;
+}
+#joinUs .container .row .Icons .fa-instagram:hover {
+  color: red;
+}
+#joinUs .container .row .Icons .fa-linkedin-in:hover {
+  color: red;
+}
+.div a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.div a:hover {
+  color: brown;
+}
+#joinUs {
+  margin-top: 200px;
+}
+#home  .demo .par{
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: bold;
+}
